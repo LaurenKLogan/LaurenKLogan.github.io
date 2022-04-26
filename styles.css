@@ -3,15 +3,17 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 section {
-    background-color: white;
-
+    background-color: black;
+  
 }
+*{padding; 0; margin: 0;}
+
 
 .home {
     background-color: black;
     height: 100vh;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 footer {
@@ -35,9 +37,9 @@ nav {
 ul {
     display: flex;
     list-style-type: none;
-    width: 500px;
+    width: 400px;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 li {
@@ -103,12 +105,21 @@ p{
 }
   
 .socials {
+    display: flex;
+    flex-direction: flex;
+    height: 100%;
+    align-items: center;
     padding-bottom: 200px;
 }
 
 .logo{
     height: 80px;
     margin: 30px;
+}
+.logo2{
+    height: 30px;
+    margin: 10px;
+  
 }
 
 .social{
@@ -154,7 +165,7 @@ p{
     width: 200px;
     height: 375px;
     box-shadow: 5px 5px 20px black;
-    margin: 10px;
+    margin: 15px;
 }
 
 .portfolio-container {
