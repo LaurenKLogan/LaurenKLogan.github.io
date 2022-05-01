@@ -4,15 +4,15 @@ body{
 }
 section {
     background-color: black;
-  
 }
-*{padding; 0; margin: 0;}
+
+*{padding: 0; margin: 0;}
 
 
 .home {
     background-color: black;
     height: 100vh;
-    color: white;
+    color: black;
     font-size: 30px;
 }
 
@@ -21,13 +21,13 @@ footer {
     justify-content: space-around;
     color: white;
     text-align: center;
-    padding: 70px;
+    padding: 30px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 70px;
+    margin-top: 0px;
 }
 
 .letters{
@@ -74,14 +74,14 @@ p{
 .home-area {
     display: flex;
     flex-direction: flex;
-    height: 100%;
+    height: 80%;
     justify-content: space-between;
     align-items: center;
 }
 
 .home-text {
     margin-left: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 70px;
 }
 
 .button {
@@ -106,11 +106,9 @@ p{
 }
   
 .socials {
-    display: flex;
-    flex-direction: flex;
+    display: flex center;
     height: 100%;
-    align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 .logo{
@@ -124,12 +122,13 @@ p{
 }
 
 .social{
-    margin: 20px;
+    margin-top: 20 px;
 }
 
 .about{
     background-color: yellow;
     display: flex;
+    height: 100%;
     justify-content: space-around;
     padding: 70px;
 }
@@ -155,7 +154,7 @@ p{
     align-items: center;
 }
 
-@media only screen and (max-width 1000px) {
+@media only screen and (max-width 1000 px) {
     .project-container {
         display: flex;
         flex-wrap: wrap;
@@ -164,15 +163,17 @@ p{
 
 .portfolio-card {
     width: 200px;
-    height: 375px;
+    height: 250px;
     box-shadow: 5px 5px 20px black;
-    margin: 15px;
+    margin: 20px;
 }
 
 .portfolio-container {
     display: flex;
+    height: 100%;
     justify-content: space-around;
     background-color: white;
+    margin: 10px;
 }
 
 .portfolio-image {
@@ -188,6 +189,7 @@ hr {
 }
 .example-link {
     text-decoration: none;
+    font-size: 15px;
     color:  #ef744b;
 }
 
@@ -203,5 +205,4 @@ a {
     margin: 10px;
 }
 
-  
   
